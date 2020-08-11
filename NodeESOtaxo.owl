@@ -1,0 +1,2024 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-13="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasDirectory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasDirectory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasExpertise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasExpertise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasModule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasModule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPullRequest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPullRequest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasSpecificTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasSpecificTopic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTopic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#weight"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Developer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Developer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Expertise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Expertise"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#NULL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#NULL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Weight"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#CI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#CI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CI / flaky test</tagname>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">build</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#CoreFeature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#CoreFeature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature request</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Diagnostic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Diagnostic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-mortem</tagname>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">report</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ES_Modules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ES_Modules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ES Module</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Memory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Memory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#NewFeature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#NewFeature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#OperationalErrors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#OperationalErrors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">errors</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Performance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Performance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">performance</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ProgrammerErrors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ProgrammerErrors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confirmed-bug</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ProjectManagement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ProjectManagement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">python</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">security</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SmartOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SmartOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmartOS</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Testing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Testing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">debugger</tagname>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">test</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Updating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Updating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semver-major</tagname>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semver-minor</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#V8_Engine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#V8_Engine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V8 Engine</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#V8_Platform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#V8_Platform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V8 Platform</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#WSL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#WSL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windows Subsystem for Linux (WSL)</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#WebAssembly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#WebAssembly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wasm</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#addons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#addons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addons</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#aix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#aix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aix</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#android -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#android">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">android</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#arm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#arm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arm</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#asm.js -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#asm.js">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asm.js</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#assert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#assert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assert</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#async_hooks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#async_hooks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">async_hooks</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#async_wrap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#async_wrap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">async_wrap</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#benchmark -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#benchmark">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benchmark</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#brotli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#brotli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brotli</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#buffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#buffer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buffer</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cares -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cares">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cares</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#child_process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#child_process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">child_process</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cli</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cluster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#cluster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cluster</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#console -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#console">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">console</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#coverage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#coverage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coverage</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#crypto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#crypto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crypto</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#deprecations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#deprecations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deprecations</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dgram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dgram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dgram</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dns</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#doc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#doc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doc</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#domain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#domain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dtrace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dtrace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dtrace</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#events -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#events">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">events</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#eventtarget -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#eventtarget">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eventtarget</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#freebsd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#freebsd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freebsd</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#fs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#fs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fs</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#gyp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#gyp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gyp</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http2</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http_parser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#http_parser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http_parser</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#https -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#https">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#i18n-api -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#i18n-api">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i18n-api</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ibmi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ibmi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ibmi</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#inspector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#inspector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inspector</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#install -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#install">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">install</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#libuv -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#libuv">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">libuv</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#linux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#linux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linux</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#macOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#macOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masOS</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#mips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#mips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mips</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#module -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#module">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">module</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n-api -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n-api">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-api</tagname>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-api-semver-major</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#net -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#net">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">net</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#npm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#npm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">npm</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#null -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#null">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#NULL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#openssl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#openssl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">openssl</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#os -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#os">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">os</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#path -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#path">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">path</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#perf_hooks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#perf_hooks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perf_hooks</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ppc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ppc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ppc</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#promises -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#promises">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promises</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#punycode -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#punycode">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">punycode</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#querystring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#querystring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">querystring</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#quic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#quic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quic</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#readline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#readline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">readline</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#regression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#regression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regression</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#repl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#repl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">repl</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#s390 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#s390">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s390</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#source_maps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#source_maps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source maps</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#stream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#stream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#string_decoder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#string_decoder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string_decoder</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#timers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#timers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timers</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tls</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tools">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tools</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#trace_events -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#trace_events">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trace_events</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tty</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#url -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#url">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#url_whatwg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#url_whatwg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url_whatwg</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#util -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#util">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">util</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#v8_Module -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#v8_Module">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v8 Module</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#vm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#vm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vm</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#wasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#wasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wasi</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">windows</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#worker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#worker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worker</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#zlib -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#zlib">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zlib</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#C++ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#C++">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C++</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ES6+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#ES6+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Type"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refactor to ES6+</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#lib/src -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#lib/src">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory"/>
+        <tagname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lib / src</tagname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dev">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#e">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#sp">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#st">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Developer has Expertise</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S11</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Developer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dev"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPullRequest"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dev"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasExpertise"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#e"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasExpertise"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#dev"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#e"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tag has Directory</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Directory"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasDirectory"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tag has SpecificTopic</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#SpecificTopic"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#st"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#st"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasSpecificTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#st"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tag has Topic</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Topic"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tag has Module</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Module"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasModule"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tag has PA</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S5</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PA"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#tagname"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#stringEqualIgnoreCase"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPA"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PullRequest has Directory</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S9</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasDirectory"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasDirectory"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PullRequest has Module</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S8</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasModule"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasModule"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PullRequest has PA</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S10</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPA"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasPA"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pa"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PullRequest has SpecificTopic</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S7</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasSpecificTopic"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#sp"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasSpecificTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#sp"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PullRequest has Topic</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#PullRequest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#Tag"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTag"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTopic"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#t"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#hasTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#pr"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tales/ontologies/2020/6/untitled-ontology-13#to"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
