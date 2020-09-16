@@ -1,0 +1,166 @@
+name
+abandoned
+addons
+aix
+android
+arm
+asm.js
+assert
+async_hooks
+async_wrap
+author ready
+backport-blocked-v12.x
+backport-blocked-v14.x
+backport-open-v10.x
+backport-open-v12.x
+backport-open-v13.x
+backport-open-v14.x
+backport-requested-v10.x
+backport-requested-v12.x
+backport-requested-v14.x
+backported-to-v10.x
+backported-to-v12.x
+baking-for-lts
+benchmark
+blocked
+brotli
+buffer
+build
+C++
+cares
+cc-agenda
+child_process
+CI / flaky test
+cli
+cluster
+code-and-learn
+confirmed-bug
+console
+coverage
+crypto
+debugger
+dependencies
+deprecations
+dgram
+diag-agenda
+discuss
+dns
+doc
+domain
+dont-land-on-v10.x
+dont-land-on-v12.x
+dont-land-on-v14.x
+dtrace
+duplicate
+ecosystem-lookup-requested
+embedding
+encoding
+errors
+ES Modules
+etw
+events
+eventtarget
+experimental
+fast-track
+feature request
+freebsd
+fs
+gyp
+help wanted
+http
+http_parser
+http2
+https
+i18n-api
+ibmi
+inspector
+install
+invalid
+investigating
+known limitation
+land-on-v10.x
+landed
+lib / src
+libuv
+linux
+lts
+lts-watch-v10.x
+lts-watch-v12.x
+macos
+memory
+mentor-available
+meta
+mips
+module
+modules-agenda
+n-api
+n-api-semver-major
+needs-benchmark-ci
+needs-ci
+needs-citgm
+net
+notable-change
+npm
+on hold
+openssl
+os
+path
+pending
+perf_hooks
+performance
+post-mortem
+ppc
+process
+promises
+punycode
+Python
+querystring
+question
+quic
+readline
+refactor to ES6+
+regression
+Release-agenda
+repl
+report
+revert
+review wanted
+revisit later
+s390
+security
+semver-major
+semver-minor
+shared_lib
+smartos
+source maps
+stalled
+stream
+string_decoder
+superseded
+test
+timers
+tls
+tools
+trace_events
+tsc-agenda
+tty
+url
+util
+v10.x
+v12.x
+v14.x
+V8 Engine
+v8 module
+V8 Platform
+vm
+w3c-tag-review
+wasi
+wasm
+whatwg-url
+windows
+Windows Subsystem for Linux (WSL)
+wontfix
+work in progress (WIP)
+worker
+wrong repo
+zlib
