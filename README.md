@@ -1,3 +1,3 @@
 # Ontology ExFindO
 
-- ExFindO, an ontology developed to find experts acting in global software development projects.
+- ExFindO: Ontology developed to find experts and expert teams, acting in global software development projects.
